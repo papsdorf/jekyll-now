@@ -6,6 +6,10 @@
   color: $white;
 }
 
+.header a {
+  color: lighten($color-primary, 10);
+}
+
 .header__avatar-link {
   display: block;
   width: 120px;
@@ -13,7 +17,7 @@
   overflow: hidden;
   border-radius: 3px;
   float: left;
-  margin-right: spacing-normal;
+  margin-right: $spacing-normal;
 }
 
 .header__site-name__link {
