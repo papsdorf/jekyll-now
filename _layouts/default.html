@@ -17,7 +17,7 @@
 
   <body>
     <div class="header__wrapper">
-
+      <div class="inner-container">
         <header class="header">
           <a href="{{ site.baseurl }}/" class="header__avatar-link"><img src="{{ site.avatar }}" class="header__avatar" /></a>
 
@@ -31,17 +31,21 @@
             <a href="{{ site.baseurl }}/about" class="header__nav__link">About</a>
           </nav>
         </header>
-
+      </div>
     </div>
 
     <div id="main" role="main" class="main">
-      {{ content }}
+      <div class="inner-container">
+        {{ content }}
+      </div>
     </div>
 
     <div class="footer__wrapper">
+      <div class="inner-container">
         <footer class="footer">
           {% include svg-icons.html %}
         </footer>
+      </div>
     </div>
 
   </body>
