@@ -115,6 +115,11 @@ img {
   color: rgba($black, .75);
 }
 
+.inner-container {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $white;
