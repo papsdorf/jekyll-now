@@ -1,9 +1,19 @@
 .header__wrapper {
   width: 100%;
   background: $color-primary;
-  background: linear-gradient( 25deg, darken($color-primary, 15), $color-primary );
+  background: linear-gradient( 25deg, darken($color-primary, 10), $color-primary );
   padding: $spacing-normal;
   color: $white;
+}
+
+.header__avatar-link {
+  display: block;
+  width: 120px;
+  max-height: 120px;
+  overflow: hidden;
+  border-radius: 3px;
+  float: left;
+  margin-right: spacing-normal;
 }
 
 .header__site-name__link {
