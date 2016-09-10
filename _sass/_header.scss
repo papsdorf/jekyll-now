@@ -5,3 +5,10 @@
   padding: $spacing-normal;
   color: $white;
 }
+
+.header__site-name__link {
+  color: $white;
+  &:hover {
+    color: $color-primary;
+  }
+}
