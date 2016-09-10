@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>
+      {% if page.title %}
+        {{ page.title }} –
+      {% endif %}
+      {{ site.name }} – {{ site.description }}
+    </title>
 
     {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    <div class="header__wrapper">
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+        <header class="header">
+          <a href="{{ site.baseurl }}/" class="header__avatar-link"><img src="{{ site.avatar }}" class="header__avatar" /></a>
+
+          <div class="header__site-info">
+            <h1 class="header__site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="header__site-description">{{ site.description }}</p>
           </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+          <nav class="header__nav">
+            <a href="{{ site.baseurl }}/" class="header__nav__link">Blog</a>
+            <a href="{{ site.baseurl }}/about" class="header__nav__link">About</a>
           </nav>
         </header>
-      </div>
+
     </div>
 
-    <div id="main" role="main" class="container">
+    <div id="main" role="main" class="main">
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
+    <div class="footer__wrapper">
         <footer class="footer">
           {% include svg-icons.html %}
         </footer>
-      </div>
     </div>
 
     {% include analytics.html %}
