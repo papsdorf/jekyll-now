@@ -18,6 +18,11 @@ $white: #fafafa;
 $fonts-general: Helvetica, Arial, sans-serif;
 $fonts-headers: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+// Spacing and sizing
+$spacing-normal: 2rem;
+$spacing-small: $spacing-normal / 2;
+$spacing-large: $spacing-normal * 2;
+
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
