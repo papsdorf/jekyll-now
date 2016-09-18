@@ -20,4 +20,11 @@
     display: block;
     padding: $spacing-small;
     margin: 0;
+    color: $color-primary;
+    border-radius: 5px;
+    &:hover {
+        background: $green;
+        color: $white;
+        text-decoration: none;
+    }
 }
