@@ -1,0 +1,11 @@
+.header__nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+    margin: 0;
+    max-width: 740px;
+    width: 100%;
+    background: $white;
+    text-align: right;
+  }
