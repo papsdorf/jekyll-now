@@ -11,4 +11,13 @@
     border-bottom-right-radius: 5px;
     border-bottom-left-radius:  5px;
     padding: $spacing-normal;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
   }
+
+.header__nav__link {
+    display: block;
+    padding: $spacing-small;
+    margin: 0;
+}
