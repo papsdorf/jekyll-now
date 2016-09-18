@@ -31,7 +31,7 @@
 
 .header__site-name__link {
   color: $white;
-  font-size: 1.5rem;
+  font-size: $font-size-huge;
   &:hover {
     color: $color-primary;
     text-decoration: none;
@@ -41,12 +41,12 @@
 .header__site-description {
   margin: 0;
   padding: 0;
-  font-size: .75rem;
+  font-size: $font-size-tiny;
 }
 
 .header {
-  background: teal;
-  padding: .75rem;
+  background: $color-primary;
+  padding: $spacing-small;
   width: 400px;
   border-radius: 5px;
   overflow: auto;
