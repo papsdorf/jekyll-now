@@ -23,7 +23,10 @@
 
           <div class="header__site-info">
             <h1 class="header__site-name"><a href="{{ site.baseurl }}/" class="header__site-name__link">{{ site.name }}</a></h1>
-            <p class="header__site-description">{{ site.description }}</p>
+            <p class="header__site-description">
+              {{ site.description }}
+              {% if site.footer-links.email %}<span>|</span> <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>{% endif %}
+            </p>
           </div>
 
           <nav class="header__nav">
