@@ -29,9 +29,14 @@ $font-size-normal: 1rem;
 $font-size-large: 1.25rem;
 $font-size-huge: 1.5rem;
 
-// Mobile breakpoints
+// Mobile breakpoint
 @mixin mobile {
   @media screen and (max-width: 640px) {
     @content;
   }
+}
+
+// Useful mixins
+@mixin height($height: 1) {
+  box-shadow: #{$height}px #{$height}px 3px 3px rgba($black, .25);
 }
