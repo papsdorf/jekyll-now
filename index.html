@@ -2,17 +2,32 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<div class="about">
+  <div class="about__education">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <div class="about__education__line">
+      <h2>Ph.D. History</h2>
+      <h3>Duke University, Defense Date: March 2017</h3>
+      <h4><strong>Dissertation:</strong> "Power and Persuasion: Natives and Non-natives in the Mississippi Valley,
+1763-1803"</h4>
+      <h4><strong>Advisors:</strong> Dr. Elizabeth Fenn and Dr. Phil Stern</h4>
+    </div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+    <div class="about__education__line">
+      <h3>Certificate in College Teaching, Duke University</h3>
+    </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+    <div class="about__education__line">
+      <h2>M.A. History</h2>
+      <h3>Wichita State University, 2010</h3>
+      <h3><strong>Thesis:</strong> “Trade, Diplomacy and War Along the Waters: The Mississippi During the American Revolution”</h3>
+      <h4><strong>Advisor:</strong> Dr. Robert M. Owens</h4>
+    </div>
+
+  </div>
+
+  <div class="about__publications">
+    <h2>Publications</h2>
+    {% include publications.html %}
+  </div>
 </div>

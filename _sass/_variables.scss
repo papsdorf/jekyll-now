@@ -4,7 +4,9 @@
 //
 
 // Colors
-$color-primary: #558B2F;
+$color-primary: #448AFF;
+$color-primary-light: #90CAF9;
+$color-primary-dark: #0D47A1;
 
 $color-background: #fefefe;
 $color-text: #333;
@@ -15,8 +17,8 @@ $black: #222;
 $white: #fafafa;
 
 // Font stacks
-$fonts-general: 'Lato', Helvetica, Arial, sans-serif;
-$fonts-headers: 'Libre Baskerville', Georgia, serif;
+$fonts-general: 'Fauna One', Helvetica, Arial, sans-serif;
+$fonts-headers: 'Playfair Display', Georgia, serif;
 
 // Spacing and sizing
 $spacing-normal: 1.5rem;
@@ -26,8 +28,8 @@ $spacing-large: $spacing-normal * 2;
 $font-size-tiny:  .75rem;
 $font-size-small: .85rem;
 $font-size-normal: 1rem;
-$font-size-large: 1.25rem;
-$font-size-huge: 1.5rem;
+$font-size-large: 3rem;
+$font-size-huge: 3.5rem;
 
 // Mobile breakpoint
 @mixin mobile {
@@ -38,5 +40,6 @@ $font-size-huge: 1.5rem;
 
 // Useful mixins
 @mixin height($height: 1) {
-  box-shadow: #{$height}px #{$height}px 3px 3px rgba($black, .25);
+  $blur: $height * 2;
+  box-shadow: #{$height}px #{$height}px #{$blur}px #{$blur}px rgba($black, .1);
 }

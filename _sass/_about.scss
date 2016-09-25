@@ -1,0 +1,12 @@
+.about__education__line {
+  h2 {
+    font-size: 1.5rem;
+  }
+  h2, h3, h4, h5 {
+    margin: 0;
+  }
+  h3, h4, h5 {
+    font-weight: normal;
+    font-family: $fonts-general;
+  }
+}

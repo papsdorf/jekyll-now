@@ -1,0 +1,16 @@
+.publications__article .publications__title {
+  &:before {
+    content: "\"";
+  }
+  &:after {
+    content: ",\""
+  }
+}
+
+.publications__book-review .publications__title {
+  font-style: italic;
+}
+
+.publications__article__pages:before {
+  content: ": ";
+}

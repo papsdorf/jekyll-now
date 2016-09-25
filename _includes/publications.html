@@ -1,0 +1,26 @@
+<div class="publications">
+  {% for publication in site.publications %}
+    <div class="publications__{{ publication.type }}">
+      {% if publication.type == 'book-review' %}Review, {% endif %}
+      {% if publication.link %}<a href={{ publications.link }} class="publications__link">{% endif %}
+        <span class="publications__title">{% if publication.title %}{{ publication.title }}{% endif %}{% if publication.book-title %}{{ publication.book-title }}{% endif %}</span>
+        {% if publication.type == 'book-review' and publication.book-year %}({{ publication.book-year }}){% endif %}
+      {% if publication.link %}</a>{% endif %}
+      <span class="publication__meta">
+        {% if publication.type == 'article' or publication.type == 'book-review' %}
+          <em class="publication__publication-title">{{ publication.publication }}</em>
+          {% if publication.number %}{{ publication.number }}{% endif %}
+          {% if publication.month and publication.year %}
+            ({{ publication.month }}, {{ publication.year }})
+          {% endif %}
+          {% if publication.pages %}
+            <span class="publications__article__pages">{{ publication.pages }}</span>
+          {% endif %}
+        {% endif %}
+        {% if publication.under-review and publication.under-review != 'no' %}
+          (Under Review)
+        {% endif %}
+      </span>
+    </div>
+  {% endfor %}
+</div>

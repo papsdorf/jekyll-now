@@ -27,28 +27,39 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
   padding: 0;
 
+  a {
+    border-bottom: 1px solid transparent;
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+      color: $color-primary;
+      text-decoration: none;
+    }
+  }
+
   @include mobile {
     line-height: 1.4;
   }
 }
 
 h1 {
-  font-size: 2rem;
-  a {
-    color: inherit;
-  }
+  font-size: $font-size-huge;
 }
 
 h2 {
-  font-size: 1.7rem;
+  font-size: $font-size-large;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: $font-size-normal;
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: $font-size-small;
+}
+
+h5, h6 {
+  font-size: $font-size-tiny;
 }
 
 p {
@@ -57,9 +68,9 @@ p {
 a {
   color: $color-primary;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
-    color: $color-primary;
+    color: $color-primary-dark;
     text-decoration: underline;
   }
 }

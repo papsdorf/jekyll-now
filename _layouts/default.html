@@ -12,14 +12,19 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href="https://fonts.googleapis.com/css?family=Fauna+One|Playfair+Display" rel="stylesheet">
 
   </head>
 
-  <body>
+  <body class="{{ page.layout | slugify }} {{ page.title | slugify }}">
     <div class="header__wrapper">
       <div class="inner-container">
         <header class="header">
-          <a href="{{ site.baseurl }}/" class="header__avatar-link"><img src="{{ site.avatar }}" class="header__avatar" /></a>
+          <a href="{{ site.baseurl }}/" class="header__avatar-link">
+            <div class="header__avatar__wrapper">
+              <img src="{{ site.avatar }}" class="header__avatar" />
+            </div>
+          </a>
 
           <div class="header__site-info">
             <h1 class="header__site-name"><a href="{{ site.baseurl }}/" class="header__site-name__link">{{ site.name }}</a></h1>
@@ -28,13 +33,16 @@
               {% if site.footer-links.email %}<span>|</span> <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>{% endif %}
             </p>
           </div>
-
-          <nav class="header__nav">
-            <a href="{{ site.baseurl }}/" class="header__nav__link">Blog</a>
-            <a href="{{ site.baseurl }}/about" class="header__nav__link">About</a>
-          </nav>
         </header>
       </div>
+    </div>
+
+    <div class="nav">
+      <nav class="nav__wrapper">
+        <a href="{{ site.baseurl }}/" class="nav__link">About</a>
+        <!-- <a href="{{ site.baseurl }}/blog" class="nav__link">Blog</a> -->
+        <a href="{{ site.baseurl }}/documents/{{ site.current-cv }}" class="nav__link">Download my CV</a>
+      </nav>
     </div>
 
     <div id="main" role="main" class="main">
@@ -50,8 +58,6 @@
         </footer>
       </div>
     </div>
-
-  <link href="https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville:700" rel="stylesheet">
 
   </body>
 </html>
