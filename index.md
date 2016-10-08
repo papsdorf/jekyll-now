@@ -15,4 +15,7 @@ layout: default
 - **Advisor:** Dr. Robert M. Owens
 
 # Publications
-{% include publications.html %}
+{% capture includePublications %}
+  {% include publications.html %}
+{% endcapture %}
+{{ includePublications }}
