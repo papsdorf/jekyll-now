@@ -6,5 +6,4 @@ publication: Journal of the Early Republic
 #month: August
 #year: 2017
 under-review: yes
-link: http://www.google.com/
 ---
