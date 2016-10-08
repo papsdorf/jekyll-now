@@ -9,10 +9,10 @@ layout: default
 
 - Certificate in College Teaching, *Duke University*
 
-# M.A. History
+## M.A. History
 - Wichita State University, 2010
 - **Thesis:** “Trade, Diplomacy and War Along the Waters: The Mississippi During the American Revolution”
 - **Advisor:** Dr. Robert M. Owens
 
-# Publications
+## Publications
 {% include publications.html %}
