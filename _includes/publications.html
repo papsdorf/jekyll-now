@@ -2,7 +2,7 @@
   {% for publication in site.publications %}
     <div class="publications__{{ publication.type }}">
       {% if publication.type == 'book-review' %}Review, {% endif %}
-      {% if publication.link %}<a href={{ publications.link }} class="publications__link">{% endif %}
+      {% if publication.link %}<a href="{{ publications.link }}" class="publications__link">{% endif %}
         <span class="publications__title">{% if publication.title %}{{ publication.title }}{% endif %}{% if publication.book-title %}{{ publication.book-title }}{% endif %}</span>
         {% if publication.type == 'book-review' and publication.book-year %}({{ publication.book-year }}){% endif %}
       {% if publication.link %}</a>{% endif %}
