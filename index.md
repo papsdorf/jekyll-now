@@ -3,9 +3,9 @@ layout: default
 ---
 
 ## PhD. History
-Duke University, Defense Date: March, 2017
-**Dissertation:** "Power and Persuasion: Natives and Non-natives in the Mississippi Valley, 1763-1803"
-**Advisors:** Dr. Elizabeth Fenn and Dr. Phil Stern
+Duke University, Defense Date: March, 2017<br>
+**Dissertation:** "Power and Persuasion: Natives and Non-natives in the Mississippi Valley, 1763-1803"<br>
+**Advisors:** Dr. Elizabeth Fenn and Dr. Phil Stern<br>
 
 Certificate in College Teaching, *Duke University*
 
