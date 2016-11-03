@@ -16,3 +16,9 @@ layout: default
 
 ## Publications
 {% include publications.html %}
+
+## Writing awards
+- 2015 William F. Coker Award, Gulf South Historical Association
+- 2011 Midwestern Association of Graduate Schools Distinguished Master’s Thesis Award
+- 2010 Dora Wallace Hodgson Outstanding Master's Thesis, Wichita State University
+
