@@ -1,7 +1,7 @@
 ----
 -layout: page
 -title: About
--permalink: /about/
+-permalink: /daniel.papsdorf.com/about/
 ----
 -
 -Some information about you!
