@@ -14,9 +14,8 @@ avatar: images/pic.jpg
 # The Current CV you want to use in the documents/ folder
 current-cv: "Papsdorf CV Fall 2016.pdf"
 
-#
-# Flags below are optional
-#
+# The Current Teaching Philosophy you want to use in the documents/ folder
+# teaching philosophy: "Teaching Philosophy.pdf"
 
 # Includes an icon in the footer for each username you enter
 footer-links:
