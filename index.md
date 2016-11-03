@@ -4,7 +4,7 @@ layout: default
 
 ## PhD. History
 - Duke University, Defense Date: March, 2017
-- **Dissertation:** "Power and Persuasion: Natives and Non-natives in the Mississippi Valley, 1763-1803"
+- **Dissertation:** "From Power to Profit: Natives and Non-natives in the Lower Mississippi Valley, 1763-1803"
 - **Advisors:** Dr. Elizabeth Fenn and Dr. Phil Stern
 
 - Certificate in College Teaching, *Duke University*
