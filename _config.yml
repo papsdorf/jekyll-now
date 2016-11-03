@@ -9,12 +9,11 @@ name: Daniel Papsdorf
 description: Historian
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/pic.jpg
+avatar: /images/pic.jpg
 
 # The Current CV you want to use in the documents/ folder
 current-cv: "Papsdorf CV Fall 2016.pdf"
 
-#
 # The Current Teaching Philosophy you want to use in the documents/ folder
 teaching-philosophy: "Teaching Philosophy.pdf"
 
