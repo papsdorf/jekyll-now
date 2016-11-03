@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 
 ## PhD. History
@@ -7,7 +8,7 @@ layout: default
 - **Dissertation:** "From Power to Profit: Natives and Non-natives in the Lower Mississippi Valley, 1763-1803"
 - **Advisors:** Dr. Elizabeth Fenn and Dr. Phil Stern
 
-- Certificate in College Teaching, *Duke University*
+- Certificate in College Teaching, Duke University
 
 ## M.A. History
 - Wichita State University, 2010
@@ -21,4 +22,3 @@ layout: default
 - 2015 William F. Coker Award, Gulf South Historical Association
 - 2011 Midwestern Association of Graduate Schools Distinguished Master’s Thesis Award
 - 2010 Dora Wallace Hodgson Outstanding Master's Thesis, Wichita State University
-
