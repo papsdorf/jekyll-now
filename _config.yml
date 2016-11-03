@@ -12,7 +12,7 @@ description: Historian
 avatar: images/pic.jpg
 
 # The Current CV you want to use in the documents/ folder
-current-cv: "Papsdorf CV Fall 2016.pdf"
+current-cv:"Papsdorf CV Fall 2016.pdf"
 
 #
 # Flags below are optional
