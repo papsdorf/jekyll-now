@@ -3,7 +3,7 @@ layout: default
 published: true
 ---
 
--Some information about you!
+Some information about you!
 
 ### More Information
 
