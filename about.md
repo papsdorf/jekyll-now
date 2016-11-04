@@ -9,7 +9,7 @@ I am currently a Ph.D. candidate in History at Duke specializing in the fields o
 
 When not combing through the archives or writing, I enjoy spending time on the water (fishing) or under the night sky (stargazing). And of course, getting out to the old pumpkin patch when the time comes.
 
-[(pumpkin.jpg)]
+{(pumpkin.jpg)}
 
 
 
