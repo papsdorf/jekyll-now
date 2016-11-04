@@ -13,7 +13,7 @@ When not combing through the archives or writing, I enjoy spending time on the w
 
 ### Contact me
 
-[{{ site.footer-links.email }}](mailto:site.footer-links.email)
+[{{ site.footer-links.email }}](mailto:daniel.papsdorf.edu)
 
 [My current CV]({{ site.baseurl }}documents/{{ site.current-cv }})
 
